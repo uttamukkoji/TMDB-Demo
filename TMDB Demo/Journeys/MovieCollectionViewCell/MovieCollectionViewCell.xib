@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="g9u-qE-YZW" customClass="MovieCollectionViewCell" customModule="TMDB_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="220" height="257"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="220" height="257"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0e-Hd-Uxa">
+                        <rect key="frame" x="8" y="228.5" width="204" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0ej-na-SKl">
+                        <rect key="frame" x="0.0" y="0.0" width="220" height="257"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0ej-na-SKl" firstAttribute="top" secondItem="g9u-qE-YZW" secondAttribute="top" id="0AU-bR-4aR"/>
+                <constraint firstAttribute="bottom" secondItem="0ej-na-SKl" secondAttribute="bottom" id="0sp-iG-RJh"/>
+                <constraint firstItem="j0e-Hd-Uxa" firstAttribute="leading" secondItem="g9u-qE-YZW" secondAttribute="leading" constant="8" id="4we-bs-w6e"/>
+                <constraint firstAttribute="trailing" secondItem="0ej-na-SKl" secondAttribute="trailing" id="BiU-1F-nM9"/>
+                <constraint firstItem="0ej-na-SKl" firstAttribute="leading" secondItem="g9u-qE-YZW" secondAttribute="leading" id="Bqf-rf-GKM"/>
+                <constraint firstAttribute="bottom" secondItem="j0e-Hd-Uxa" secondAttribute="bottom" constant="8" id="Tdt-c4-Mlv"/>
+                <constraint firstAttribute="trailing" secondItem="j0e-Hd-Uxa" secondAttribute="trailing" constant="8" id="pwc-cY-mak"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Rwg-rm-1Gr"/>
+            <size key="customSize" width="220" height="257"/>
+            <connections>
+                <outlet property="moviePosterImageView" destination="0ej-na-SKl" id="yGN-ap-kLc"/>
+                <outlet property="movieTitleLabel" destination="j0e-Hd-Uxa" id="ihA-7y-g0e"/>
+            </connections>
+            <point key="canvasLocation" x="-348" y="-67"/>
+        </collectionViewCell>
+    </objects>
+</document>
