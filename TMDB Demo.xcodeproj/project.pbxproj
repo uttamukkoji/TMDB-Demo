@@ -19,7 +19,6 @@
 		0FC243FA229AC3270054C6C8 /* CollectionViewPrefetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC243F9229AC3270054C6C8 /* CollectionViewPrefetching.swift */; };
 		0FC243FC229AC6F30054C6C8 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC243FB229AC6F30054C6C8 /* UIImageView+Extensions.swift */; };
 		0FFF5C4C2298754700F0985F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFF5C4B2298754700F0985F /* AppDelegate.swift */; };
-		0FFF5C4E2298754700F0985F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFF5C4D2298754700F0985F /* ViewController.swift */; };
 		0FFF5C512298754700F0985F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFF5C4F2298754700F0985F /* Main.storyboard */; };
 		0FFF5C532298754800F0985F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FFF5C522298754800F0985F /* Assets.xcassets */; };
 		0FFF5C562298754800F0985F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFF5C542298754800F0985F /* LaunchScreen.storyboard */; };
@@ -77,7 +76,6 @@
 		0FC243FB229AC6F30054C6C8 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		0FFF5C482298754700F0985F /* TMDB Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMDB Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFF5C4B2298754700F0985F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FFF5C4D2298754700F0985F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FFF5C502298754700F0985F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FFF5C522298754800F0985F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FFF5C552298754800F0985F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -207,7 +205,6 @@
 				0FFF5C732299C21200F0985F /* Extensions */,
 				0FFF5C6C2299C0D500F0985F /* Networking */,
 				0FFF5C4B2298754700F0985F /* AppDelegate.swift */,
-				0FFF5C4D2298754700F0985F /* ViewController.swift */,
 				0FFF5C4F2298754700F0985F /* Main.storyboard */,
 				0FFF5C522298754800F0985F /* Assets.xcassets */,
 				0FFF5C542298754800F0985F /* LaunchScreen.storyboard */,
@@ -574,7 +571,6 @@
 			files = (
 				0FFF5C702299C14B00F0985F /* TMDBClient.swift in Sources */,
 				0FFF5C892299C60400F0985F /* MovieClient.swift in Sources */,
-				0FFF5C4E2298754700F0985F /* ViewController.swift in Sources */,
 				0FFF5C9B2299D15B00F0985F /* MovieCollectionViewManager.swift in Sources */,
 				0FC243FC229AC6F30054C6C8 /* UIImageView+Extensions.swift in Sources */,
 				0FFF5C9D2299D23D00F0985F /* ImageSize.swift in Sources */,
